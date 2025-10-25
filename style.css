@@ -20,10 +20,37 @@
 
 body {
     background-color: var(--Stone-100);
-    font-family: 'young', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
 }
 
+article{
+    background-color: var(--White);
+    width: 32rem;
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 20px 30px;
+}
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header img {
+    width: 29rem;
+    height: auto;
+    border-radius: 1rem;
+}
 
 
 
